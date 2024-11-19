@@ -30,7 +30,7 @@ def voice_to_voice(audio_file):
 
 
 def audio_transcription(audio_file):
-    aai.settings.api_key="209ab4174e674bada55f92b35991c1cf"
+    aai.settings.api_key="your api key"
     transcriber=aai.Transcriber()
     transcription=transcriber.transcribe(audio_file)
 
@@ -58,10 +58,10 @@ def text_to_speech(text):
     #sk_5a1835e01b6d5d2b0522b00131d6794cc2d0524216e67aee
     
     client = ElevenLabs(
-        api_key='sk_5a1835e01b6d5d2b0522b00131d6794cc2d0524216e67aee',
+        api_key='your eleven lab api',
 )
     response = client.text_to_speech.convert(
-        voice_id="pqHfZKP75CvOlQylNhV4", # Adam pre-made voice
+        voice_id="your voice id", # Adam pre-made voice
         output_format="mp3_22050_32",
         text=text,
         model_id="eleven_multilingual_v2", # use the turbo model for low latency
