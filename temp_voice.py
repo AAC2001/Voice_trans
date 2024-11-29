@@ -26,7 +26,6 @@ def voice_to_voice(audio_file):
         path = Path(translated_audio_file_name)
         generated_audio_paths.append(path)
 
-
     return generated_audio_paths[0], generated_audio_paths[1], generated_audio_paths[2], generated_audio_paths[3], generated_audio_paths[4], generated_audio_paths[5], list_translations[0], list_translations[1], list_translations[2], list_translations[3], list_translations[4], list_translations[5]
 # Function to transcribe audio using AssemblyAI
 def transcribe_audio(audio_file):
