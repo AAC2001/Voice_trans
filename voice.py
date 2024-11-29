@@ -72,8 +72,7 @@ def text_to_speech(text):
         ),
     )
 
-    # uncomment the line below to play the audio back
-    # play(response)
+
 
     # Generating a unique file name for the output MP3 file
     save_file_path = f"{uuid.uuid4()}.mp3"
