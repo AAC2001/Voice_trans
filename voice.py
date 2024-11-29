@@ -14,7 +14,6 @@ def voice_to_voice(audio_file):
         raise gr.Error(transcription_response.error)
     else:
         text=transcription_response.text
-
     es_translation,de_translation,hi_translation,te_translation=text_translation(text)
     es_audio_path=text_to_speech(es_translation)
     de_audio_path=text_to_speech(de_translation)
