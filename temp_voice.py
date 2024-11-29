@@ -16,7 +16,6 @@ def voice_to_voice(audio_file):
         raise gr.Error(transcript.error)
     else:
         transcript = transcript.text
-
     # translate text
     list_translations = translate_text(transcript)
     generated_audio_paths = []
