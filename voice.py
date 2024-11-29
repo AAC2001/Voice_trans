@@ -73,7 +73,6 @@ def text_to_speech(text):
     )
 
 
-
     # Generating a unique file name for the output MP3 file
     save_file_path = f"{uuid.uuid4()}.mp3"
 
