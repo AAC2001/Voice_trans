@@ -9,7 +9,6 @@ from elevenlabs.client import ElevenLabs
 from pathlib import Path
 
 def voice_to_voice(audio_file):
-
     # transcript speech
     transcript = transcribe_audio(audio_file)
 
