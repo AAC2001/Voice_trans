@@ -20,7 +20,6 @@ def voice_to_voice(audio_file):
     hi_audio_path=text_to_speech(hi_translation)
     te_audio_path=text_to_speech(te_translation)
 
-
     es_path=Path(es_audio_path)
     de_path=Path(de_audio_path)
     hi_path=Path(hi_audio_path)
